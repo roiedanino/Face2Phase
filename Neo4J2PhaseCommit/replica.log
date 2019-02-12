@@ -1,0 +1,89 @@
+2019-02-11 15:33:03.842  INFO 77973 --- [reactor-http-server-kqueue-8] com.insta2phase.utils.log.LogAspect      : REPLICA:: called TwoPhaseCommitParticipantAPIImplementation.initPhase()
+2019-02-11 15:33:04.972  INFO 77973 --- [reactor-http-server-kqueue-8] com.insta2phase.utils.log.LogAspect      : REPLICA::TwoPhaseCommitParticipantAPIImplementation.initPhase() returned:{"canCommit":"COMMIT","requestId":"142"}
+2019-02-11 15:33:05.122  INFO 77973 --- [reactor-http-server-kqueue-8] com.insta2phase.utils.log.LogAspect      : REPLICA:: called TwoPhaseCommitParticipantAPIImplementation.commitPhase()
+2019-02-11 15:33:05.327  INFO 77973 --- [reactor-http-server-kqueue-8] com.insta2phase.utils.log.LogAspect      : REPLICA::TwoPhaseCommitParticipantAPIImplementation.commitPhase() returned:{"email":"roiedanino2@gmail.com","fullName":"roie danino","username":"roie.danino","passwordHash":"64ca5c81fa31e243112164cc07ca3f66","following":[]}
+2019-02-11 16:05:43.197  INFO 77973 --- [reactor-http-server-kqueue-8] com.insta2phase.utils.log.LogAspect      : REPLICA:: called TwoPhaseCommitParticipantAPIImplementation.initPhase()
+2019-02-11 16:05:43.485  INFO 77973 --- [reactor-http-server-kqueue-8] com.insta2phase.utils.log.LogAspect      : REPLICA::TwoPhaseCommitParticipantAPIImplementation.initPhase() returned:{"canCommit":"COMMIT","requestId":"151"}
+2019-02-11 16:05:43.510  INFO 77973 --- [reactor-http-server-kqueue-8] com.insta2phase.utils.log.LogAspect      : REPLICA:: called TwoPhaseCommitParticipantAPIImplementation.commitPhase()
+2019-02-11 16:05:43.584  INFO 77973 --- [reactor-http-server-kqueue-8] com.insta2phase.utils.log.LogAspect      : REPLICA::TwoPhaseCommitParticipantAPIImplementation.commitPhase() returned:{"email":"liamo@gmail.com","fullName":"f3f434","username":"f34f3wef","passwordHash":"da7f601763d3aae638f99ded66f351d2","following":[]}
+2019-02-11 16:07:00.364  INFO 77973 --- [reactor-http-server-kqueue-8] com.insta2phase.utils.log.LogAspect      : REPLICA:: called TwoPhaseCommitParticipantAPIImplementation.initPhase()
+2019-02-11 16:07:00.438  INFO 77973 --- [reactor-http-server-kqueue-8] com.insta2phase.utils.log.LogAspect      : REPLICA::TwoPhaseCommitParticipantAPIImplementation.initPhase() returned:{"canCommit":"COMMIT","requestId":"13"}
+2019-02-11 16:07:00.447  INFO 77973 --- [reactor-http-server-kqueue-8] com.insta2phase.utils.log.LogAspect      : REPLICA:: called TwoPhaseCommitParticipantAPIImplementation.commitPhase()
+2019-02-11 16:07:00.509  INFO 77973 --- [reactor-http-server-kqueue-8] com.insta2phase.utils.log.LogAspect      : REPLICA::TwoPhaseCommitParticipantAPIImplementation.commitPhase() returned:{"email":"moshe@danino.com","fullName":"Moshe Danino","username":"moshe.danino","passwordHash":"fa15e7ee7c4b65a8d9ef4826f0f46266","following":[]}
+2019-02-11 16:08:22.464  INFO 77973 --- [reactor-http-server-kqueue-8] com.insta2phase.utils.log.LogAspect      : REPLICA:: called TwoPhaseCommitParticipantAPIImplementation.initPhase()
+2019-02-11 16:08:22.530  INFO 77973 --- [reactor-http-server-kqueue-8] com.insta2phase.utils.log.LogAspect      : REPLICA::TwoPhaseCommitParticipantAPIImplementation.initPhase() returned:{"canCommit":"COMMIT","requestId":"167"}
+2019-02-11 16:08:22.562  INFO 77973 --- [reactor-http-server-kqueue-8] com.insta2phase.utils.log.LogAspect      : REPLICA:: called TwoPhaseCommitParticipantAPIImplementation.commitPhase()
+2019-02-11 16:08:22.598  INFO 77973 --- [reactor-http-server-kqueue-8] com.insta2phase.utils.log.LogAspect      : REPLICA::TwoPhaseCommitParticipantAPIImplementation.commitPhase() returned:{"email":"2f23f2","fullName":"23f23f23f","username":"23f23f23f23f","passwordHash":"dc5d6fa44267f37832244401ee6b8f81","following":[]}
+2019-02-11 16:26:06.255  INFO 77973 --- [reactor-http-server-kqueue-8] com.insta2phase.utils.log.LogAspect      : REPLICA:: called TwoPhaseCommitParticipantAPIImplementation.initPhase()
+2019-02-11 16:26:06.419  INFO 77973 --- [reactor-http-server-kqueue-8] com.insta2phase.utils.log.LogAspect      : REPLICA::TwoPhaseCommitParticipantAPIImplementation.initPhase() returned:{"canCommit":"COMMIT","requestId":"156"}
+2019-02-11 16:26:06.458  INFO 77973 --- [reactor-http-server-kqueue-8] com.insta2phase.utils.log.LogAspect      : REPLICA:: called TwoPhaseCommitParticipantAPIImplementation.commitPhase()
+2019-02-11 16:26:06.530  INFO 77973 --- [reactor-http-server-kqueue-8] com.insta2phase.utils.log.LogAspect      : REPLICA::TwoPhaseCommitParticipantAPIImplementation.commitPhase() returned:{"email":"linord@gmail.com","fullName":"Linor Dolev","username":"linor.dolev","passwordHash":"c7b1fcd0529d93a8202884d25f63fa55","following":[]}
+2019-02-11 16:30:24.284  INFO 77973 --- [Thread-7] o.n.ogm.drivers.bolt.driver.BoltDriver   : Shutting down Bolt driver org.neo4j.driver.internal.InternalDriver@5503c7d 
+2019-02-11 16:30:26.673 ERROR 77973 --- [Thread-7] i.n.u.c.D.rejectedExecution              : Failed to submit a listener notification task. Event loop shut down?
+
+java.util.concurrent.RejectedExecutionException: event executor terminated
+	at io.netty.util.concurrent.SingleThreadEventExecutor.reject(SingleThreadEventExecutor.java:842) ~[netty-all-4.1.29.Final.jar:4.1.29.Final]
+	at io.netty.util.concurrent.SingleThreadEventExecutor.offerTask(SingleThreadEventExecutor.java:328) ~[netty-all-4.1.29.Final.jar:4.1.29.Final]
+	at io.netty.util.concurrent.SingleThreadEventExecutor.addTask(SingleThreadEventExecutor.java:321) ~[netty-all-4.1.29.Final.jar:4.1.29.Final]
+	at io.netty.util.concurrent.SingleThreadEventExecutor.execute(SingleThreadEventExecutor.java:765) ~[netty-all-4.1.29.Final.jar:4.1.29.Final]
+	at io.netty.util.concurrent.DefaultPromise.safeExecute(DefaultPromise.java:768) ~[netty-all-4.1.29.Final.jar:4.1.29.Final]
+	at io.netty.util.concurrent.DefaultPromise.notifyListeners(DefaultPromise.java:432) ~[netty-all-4.1.29.Final.jar:4.1.29.Final]
+	at io.netty.util.concurrent.DefaultPromise.setFailure(DefaultPromise.java:112) ~[netty-all-4.1.29.Final.jar:4.1.29.Final]
+	at io.netty.channel.DefaultChannelPromise.setFailure(DefaultChannelPromise.java:89) ~[netty-all-4.1.29.Final.jar:4.1.29.Final]
+	at io.netty.channel.AbstractChannelHandlerContext.safeExecute(AbstractChannelHandlerContext.java:1010) ~[netty-all-4.1.29.Final.jar:4.1.29.Final]
+	at io.netty.channel.AbstractChannelHandlerContext.close(AbstractChannelHandlerContext.java:610) ~[netty-all-4.1.29.Final.jar:4.1.29.Final]
+	at io.netty.channel.AbstractChannelHandlerContext.close(AbstractChannelHandlerContext.java:465) ~[netty-all-4.1.29.Final.jar:4.1.29.Final]
+	at io.netty.channel.DefaultChannelPipeline.close(DefaultChannelPipeline.java:1003) ~[netty-all-4.1.29.Final.jar:4.1.29.Final]
+	at io.netty.channel.AbstractChannel.close(AbstractChannel.java:238) ~[netty-all-4.1.29.Final.jar:4.1.29.Final]
+	at reactor.netty.tcp.TcpServerBind$DisposableBind.dispose(TcpServerBind.java:166) ~[reactor-netty-0.8.2.RELEASE.jar:0.8.2.RELEASE]
+	at reactor.netty.http.server.HttpServerBind$DisposableBind.dispose(HttpServerBind.java:298) ~[reactor-netty-0.8.2.RELEASE.jar:0.8.2.RELEASE]
+	at reactor.netty.DisposableChannel.disposeNow(DisposableChannel.java:92) ~[reactor-netty-0.8.2.RELEASE.jar:0.8.2.RELEASE]
+	at reactor.netty.DisposableChannel.disposeNow(DisposableChannel.java:82) ~[reactor-netty-0.8.2.RELEASE.jar:0.8.2.RELEASE]
+	at org.springframework.boot.web.embedded.netty.NettyWebServer.stop(NettyWebServer.java:122) ~[spring-boot-2.1.0.RELEASE.jar:2.1.0.RELEASE]
+	at org.springframework.boot.web.reactive.context.ReactiveWebServerApplicationContext$ServerManager.stop(ReactiveWebServerApplicationContext.java:239) ~[spring-boot-2.1.0.RELEASE.jar:2.1.0.RELEASE]
+	at org.springframework.boot.web.reactive.context.ReactiveWebServerApplicationContext.stopAndReleaseReactiveWebServer(ReactiveWebServerApplicationContext.java:163) ~[spring-boot-2.1.0.RELEASE.jar:2.1.0.RELEASE]
+	at org.springframework.boot.web.reactive.context.ReactiveWebServerApplicationContext.onClose(ReactiveWebServerApplicationContext.java:157) ~[spring-boot-2.1.0.RELEASE.jar:2.1.0.RELEASE]
+	at org.springframework.context.support.AbstractApplicationContext.doClose(AbstractApplicationContext.java:1017) ~[spring-context-5.1.2.RELEASE.jar:5.1.2.RELEASE]
+	at org.springframework.context.support.AbstractApplicationContext$1.run(AbstractApplicationContext.java:931) ~[spring-context-5.1.2.RELEASE.jar:5.1.2.RELEASE]
+
+2019-02-11 16:30:26.682  WARN 77973 --- [Thread-7] reactor.netty.tcp.TcpResources           : [http] resources will use the default LoopResources: DefaultLoopResources {prefix=reactor-http, daemon=true, selectCount=4, workerCount=4}
+2019-02-11 16:30:26.682  WARN 77973 --- [Thread-7] reactor.netty.tcp.TcpResources           : [http] resources will use the default ConnectionProvider: PooledConnectionProvider {name=http, poolFactory=reactor.netty.resources.ConnectionProvider$$Lambda$394/0x000000080042f440@78d6447a}
+2019-02-11 16:30:59.335  INFO 78701 --- [main] com.insta2phase.ReplicaApplication       : Starting ReplicaApplication on Roies-MacBook-Pro-2.local with PID 78701 (/Users/roie/Documents/Workspace/Neo4J2PhaseCommit/out/production/classes started by roie in /Users/roie/Documents/Workspace/Neo4J2PhaseCommit)
+2019-02-11 16:30:59.340 DEBUG 78701 --- [main] com.insta2phase.ReplicaApplication       : Running with Spring Boot v2.1.0.RELEASE, Spring v5.1.2.RELEASE
+2019-02-11 16:30:59.341  INFO 78701 --- [main] com.insta2phase.ReplicaApplication       : No active profile set, falling back to default profiles: default
+2019-02-11 16:30:59.799  INFO 78701 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data repositories in DEFAULT mode.
+2019-02-11 16:30:59.862  INFO 78701 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 57ms. Found 3 repository interfaces.
+2019-02-11 16:31:00.409  WARN 78701 --- [main] reactor.netty.tcp.TcpResources           : [http] resources will use the default LoopResources: DefaultLoopResources {prefix=reactor-http, daemon=true, selectCount=4, workerCount=4}
+2019-02-11 16:31:00.410  WARN 78701 --- [main] reactor.netty.tcp.TcpResources           : [http] resources will use the default ConnectionProvider: PooledConnectionProvider {name=http, poolFactory=reactor.netty.resources.ConnectionProvider$$Lambda$394/0x000000080042f440@36417a54}
+2019-02-11 16:31:01.217  INFO 78701 --- [main] org.neo4j.ogm.metadata.DomainInfo        : Starting Post-processing phase
+2019-02-11 16:31:01.217  INFO 78701 --- [main] org.neo4j.ogm.metadata.DomainInfo        : Building annotation class map
+2019-02-11 16:31:01.217  INFO 78701 --- [main] org.neo4j.ogm.metadata.DomainInfo        : Building interface class map for 7 classes
+2019-02-11 16:31:01.225  INFO 78701 --- [main] org.neo4j.ogm.metadata.DomainInfo        : Post-processing complete
+2019-02-11 16:31:01.522  INFO 78701 --- [main] o.s.d.neo4j.mapping.Neo4jMappingContext  : Neo4jMappingContext initialisation completed
+2019-02-11 16:31:02.174  INFO 78701 --- [main] Driver                                   : Direct driver instance 192973557 created for server address localhost:7680
+2019-02-11 16:31:11.177  INFO 78701 --- [main] o.s.b.web.embedded.netty.NettyWebServer  : Netty started on port(s): 8081
+2019-02-11 16:31:11.182  INFO 78701 --- [main] com.insta2phase.ReplicaApplication       : Started ReplicaApplication in 12.286 seconds (JVM running for 18.341)
+2019-02-11 17:22:35.903  INFO 78701 --- [reactor-http-server-kqueue-6] com.insta2phase.utils.log.LogAspect      : REPLICA:: called TwoPhaseCommitParticipantAPIImplementation.initPhase()
+2019-02-11 17:22:36.968  INFO 78701 --- [reactor-http-server-kqueue-6] com.insta2phase.utils.log.LogAspect      : REPLICA::TwoPhaseCommitParticipantAPIImplementation.initPhase() returned:{"canCommit":"COMMIT","requestId":"160"}
+2019-02-11 17:22:37.091  INFO 78701 --- [reactor-http-server-kqueue-6] com.insta2phase.utils.log.LogAspect      : REPLICA:: called TwoPhaseCommitParticipantAPIImplementation.commitPhase()
+2019-02-11 17:22:37.373  INFO 78701 --- [reactor-http-server-kqueue-6] com.insta2phase.utils.log.LogAspect      : REPLICA::TwoPhaseCommitParticipantAPIImplementation.commitPhase() returned:{"email":"tal@malul.com","fullName":"Tal Malul","username":"tal.malul","passwordHash":"89ec614f18cdca9d2cb23990530601e5","following":[]}
+2019-02-11 17:22:38.014  INFO 78701 --- [reactor-http-server-kqueue-6] com.insta2phase.utils.log.LogAspect      : REPLICA:: called TwoPhaseCommitParticipantAPIImplementation.initPhase()
+2019-02-11 17:22:38.111  INFO 78701 --- [reactor-http-server-kqueue-6] com.insta2phase.utils.log.LogAspect      : REPLICA::TwoPhaseCommitParticipantAPIImplementation.initPhase() returned:{"canCommit":"COMMIT","requestId":"161"}
+2019-02-11 17:22:38.125  INFO 78701 --- [reactor-http-server-kqueue-6] com.insta2phase.utils.log.LogAspect      : REPLICA:: called TwoPhaseCommitParticipantAPIImplementation.commitPhase()
+2019-02-11 17:22:38.184  INFO 78701 --- [reactor-http-server-kqueue-6] com.insta2phase.utils.log.LogAspect      : REPLICA::TwoPhaseCommitParticipantAPIImplementation.commitPhase() returned:{"email":"fg43g34g","fullName":"3g34g34g","username":"3g3434g343","passwordHash":"6d2712df189995b49f0b0a8fe219dd00","following":[]}
+2019-02-11 17:23:33.526  INFO 78701 --- [reactor-http-server-kqueue-6] com.insta2phase.utils.log.LogAspect      : REPLICA:: called TwoPhaseCommitParticipantAPIImplementation.initPhase()
+2019-02-11 17:23:33.588  INFO 78701 --- [reactor-http-server-kqueue-6] com.insta2phase.utils.log.LogAspect      : REPLICA::TwoPhaseCommitParticipantAPIImplementation.initPhase() returned:{"canCommit":"COMMIT","requestId":"165"}
+2019-02-11 17:23:33.614  INFO 78701 --- [reactor-http-server-kqueue-6] com.insta2phase.utils.log.LogAspect      : REPLICA:: called TwoPhaseCommitParticipantAPIImplementation.commitPhase()
+2019-02-11 17:23:33.713  INFO 78701 --- [reactor-http-server-kqueue-6] com.insta2phase.utils.log.LogAspect      : REPLICA::TwoPhaseCommitParticipantAPIImplementation.commitPhase() returned:{"email":"roie@gmail.com","fullName":"Roie Danino","username":"roie.danino","passwordHash":"bdd26390056b30c5494920d895fdba32","following":[]}
+2019-02-11 17:27:10.555  INFO 78701 --- [reactor-http-server-kqueue-6] com.insta2phase.utils.log.LogAspect      : REPLICA:: called TwoPhaseCommitParticipantAPIImplementation.initPhase()
+2019-02-11 17:27:10.694  INFO 78701 --- [reactor-http-server-kqueue-6] com.insta2phase.utils.log.LogAspect      : REPLICA::TwoPhaseCommitParticipantAPIImplementation.initPhase() returned:{"canCommit":"COMMIT","requestId":"175"}
+2019-02-11 17:27:10.732  INFO 78701 --- [reactor-http-server-kqueue-6] com.insta2phase.utils.log.LogAspect      : REPLICA:: called TwoPhaseCommitParticipantAPIImplementation.commitPhase()
+2019-02-11 17:27:10.789  INFO 78701 --- [reactor-http-server-kqueue-6] com.insta2phase.utils.log.LogAspect      : REPLICA::TwoPhaseCommitParticipantAPIImplementation.commitPhase() returned:{"email":"linor@gmail.com","fullName":"Linor Dolev","username":"linor.dolev","passwordHash":"d266aabde1f2b8b1a55ef8ebf5e47eaa","following":[]}
+2019-02-11 17:27:24.043  INFO 78701 --- [reactor-http-server-kqueue-6] com.insta2phase.utils.log.LogAspect      : REPLICA:: called TwoPhaseCommitParticipantAPIImplementation.initPhase()
+2019-02-11 17:27:24.320  INFO 78701 --- [reactor-http-server-kqueue-6] com.insta2phase.utils.log.LogAspect      : REPLICA::TwoPhaseCommitParticipantAPIImplementation.initPhase() returned:{"canCommit":"COMMIT","requestId":"177"}
+2019-02-11 17:27:24.335  INFO 78701 --- [reactor-http-server-kqueue-6] com.insta2phase.utils.log.LogAspect      : REPLICA:: called TwoPhaseCommitParticipantAPIImplementation.commitPhase()
+2019-02-11 17:27:24.609  INFO 78701 --- [reactor-http-server-kqueue-6] com.insta2phase.utils.log.LogAspect      : REPLICA::TwoPhaseCommitParticipantAPIImplementation.commitPhase() returned:{"email":"new@account.com","fullName":"New Account","username":"new.account","passwordHash":"00fe04abe60ce32c1d9cb3283a13b3fb","following":[]}
+2019-02-11 17:27:49.888  INFO 78701 --- [reactor-http-server-kqueue-6] com.insta2phase.utils.log.LogAspect      : REPLICA:: called TwoPhaseCommitParticipantAPIImplementation.initPhase()
+2019-02-11 17:27:50.036  INFO 78701 --- [reactor-http-server-kqueue-6] com.insta2phase.utils.log.LogAspect      : REPLICA::TwoPhaseCommitParticipantAPIImplementation.initPhase() returned:{"canCommit":"COMMIT","requestId":"184"}
+2019-02-11 17:27:50.421  INFO 78701 --- [reactor-http-server-kqueue-6] com.insta2phase.utils.log.LogAspect      : REPLICA:: called TwoPhaseCommitParticipantAPIImplementation.commitPhase()
+2019-02-11 17:27:50.722  INFO 78701 --- [reactor-http-server-kqueue-6] com.insta2phase.utils.log.LogAspect      : REPLICA::TwoPhaseCommitParticipantAPIImplementation.commitPhase() returned:{"email":"roie@gmail.com","fullName":"Roie Danino","username":"roie.danino","passwordHash":"e10adc3949ba59abbe56e057f20f883e","following":[]}
