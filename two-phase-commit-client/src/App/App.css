@@ -1,0 +1,41 @@
+.App {
+  text-align: center;
+  background-color: #fafafa;
+  min-height: 800px;
+
+
+}
+
+.Nav {
+  background-color: #092440;
+  font-family: Baumans, sans-serif;
+  text-align: center;
+}
+
+.navLink{
+  -webkit-text-fill-color: #eefaf3;
+  font-size: 20px;
+  text-decoration-color: #f1f1f1;
+  text-decoration-line: underline;
+}
+
+.homeButton {
+  font-size: 40px;
+}
+
+.insta{
+  -webkit-text-fill-color: #49aafa;
+  text-decoration-color: #f1f1f1;
+  text-decoration-line: overline;
+}
+
+.two{
+  -webkit-text-fill-color: #a6fafa;
+  text-decoration-color: #f1f1f1;
+  text-decoration-line: underline overline;
+}
+.phase{
+  -webkit-text-fill-color: #45b3fa;
+  text-decoration-color: #f1f1f1;
+  text-decoration-line: underline;
+}

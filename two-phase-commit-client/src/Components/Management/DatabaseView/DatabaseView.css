@@ -1,0 +1,16 @@
+.table{
+    background-color: #092440;
+    color:white;
+    padding: 40px;
+
+}
+
+.table-wrapper{
+    max-width: 100%;
+    overflow-x: scroll;
+}
+
+.tableBody{
+    max-height: 350px;
+    overflow-y: scroll;
+}

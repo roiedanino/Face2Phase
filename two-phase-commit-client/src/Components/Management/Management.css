@@ -1,0 +1,24 @@
+.management{
+    min-height: 800px;
+    height: 100%;
+    background: #5baed6;
+}
+
+.serversInfo{
+    min-height: 300px;
+    width: 100%;
+    height: 20%;
+    margin: auto;
+
+}
+
+#leftServer{
+    alignment: left;
+    float: left;
+
+}
+
+#rightServer{
+    alignment: right;
+    float: right;
+}

@@ -1,0 +1,52 @@
+.display-3{
+    font-family: Baumans, sans-serif;
+
+}
+
+.Home{
+    min-height: 1000px;
+    position: relative;
+}
+
+.my-2{
+    background-color:white;
+}
+
+.lead{
+    color:white;
+}
+
+.jumbo{
+    min-height: 40px;
+    background-color: rgb(0,0,0); /* Fallback color */
+    background-color: rgba(0,0,0, 0.4); /* Black w/opacity/see-through */
+    font-weight: bold;
+    border: 3px solid #f1f1f1;
+    position: absolute;
+    top: 30%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 2;
+    width: 80%;
+    padding: 20px;
+    text-align: center;
+}
+
+.Home .bg{
+    filter: blur(8px);
+    -webkit-filter: blur(8px);
+
+    /* Full height */
+    height: 100%;
+    /* Center and scale the image nicely */
+    background: url("https://searchengineland.com/figz/wp-content/seloads/2014/08/social-network-media-data-ss-1920.jpg") no-repeat center;
+    background-size: cover;
+    min-height: 1000px;
+}
+
+
+
+.Home .jumbo .lead .startSimulatingButton{
+    background-color: #0d6595;
+
+}
