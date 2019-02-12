@@ -1,5 +1,7 @@
 # Face2Phase
-Two Phase Commit over HTTP for Neo4J (Graph Database) implementation using Reactive Streams, developed with Spring Framework for back-end and ReactJS for front-end
+<a href="https://en.wikipedia.org/wiki/Two-phase_commit_protocol">Two Phase Commit</a> over HTTP for Neo4J (Graph Database) implementation using Reactive Streams, developed with Spring Framework for back-end and ReactJS for front-end
+
+Two Phase Commit is a disterbuted databases protocol
 
 # Architecture
 Each server runs the same code (symmetrically) with different configuration file (application.properties, replica.properties, etc),
