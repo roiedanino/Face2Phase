@@ -4,7 +4,7 @@ Face2Phase is a <a href="https://en.wikipedia.org/wiki/Two-phase_commit_protocol
 Two Phase Commit is a type of atomic commitment protocol (ACP). It is a distributed algorithm that coordinates all the processes that participate in a distributed atomic transaction on whether to commit or abort (roll back) the transaction (it is a specialized type of consensus protocol)
 
 # Architecture
-Each server runs the same code (symmetrically) with different configuration file (application.properties, replica.properties, etc),
+Each server runs the same code (symmetrically) with a different configuration file (application.properties, replica.properties, etc),
 you can define servers ports, neo4j instance and specify replicas in the properites file
 
 #### For example:  
