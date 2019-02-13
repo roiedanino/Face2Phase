@@ -1,7 +1,7 @@
 # Face2Phase
-<a href="https://en.wikipedia.org/wiki/Two-phase_commit_protocol">Two Phase Commit</a> over HTTP for Neo4J (Graph Database) implementation using Reactive Streams, developed with Spring Framework for back-end and ReactJS for front-end
+Face2Phase is a <a href="https://en.wikipedia.org/wiki/Two-phase_commit_protocol">Two Phase Commit</a> implementation over HTTP for Neo4J graph databases using Reactive Streams, developed with Spring Framework for back-end and ReactJS for front-end
 
-Two Phase Commit is a disterbuted databases protocol
+Two Phase Commit is a type of atomic commitment protocol (ACP). It is a distributed algorithm that coordinates all the processes that participate in a distributed atomic transaction on whether to commit or abort (roll back) the transaction (it is a specialized type of consensus protocol)
 
 # Architecture
 Each server runs the same code (symmetrically) with different configuration file (application.properties, replica.properties, etc),
